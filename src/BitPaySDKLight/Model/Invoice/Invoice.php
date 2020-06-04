@@ -537,7 +537,7 @@ class Invoice
         return $this->_paymentTotals;
     }
 
-    public function setPaymentTotals($paymentTotals)
+    public function setPaymentTotals(PaymentTotal $paymentTotals)
     {
         $this->_paymentTotals = $paymentTotals;
     }
@@ -547,7 +547,7 @@ class Invoice
         return $this->_paymentSubtotals;
     }
 
-    public function setPaymentSubtotals($paymentSubtotals)
+    public function setPaymentSubtotals(PaymentTotal $paymentSubtotals)
     {
         $this->_paymentSubtotals = $paymentSubtotals;
     }
@@ -557,7 +557,7 @@ class Invoice
         return $this->_paymentDisplaySubTotals;
     }
 
-    public function setPaymentDisplaySubTotals($paymentDisplaySubTotals)
+    public function setPaymentDisplaySubTotals(PaymentTotal $paymentDisplaySubTotals)
     {
         $this->_paymentDisplaySubTotals = $paymentDisplaySubTotals;
     }
@@ -567,7 +567,7 @@ class Invoice
         return $this->_paymentDisplayTotals;
     }
 
-    public function setPaymentDisplayTotals($paymentDisplayTotals)
+    public function setPaymentDisplayTotals(PaymentTotal $paymentDisplayTotals)
     {
         $this->_paymentDisplayTotals = $paymentDisplayTotals;
     }
